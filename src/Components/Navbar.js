@@ -11,7 +11,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className='navbar'>
-                <div>
+                <div className='navbar__item'>
                     <HandySvg
                         src={iconProfile}
                         className="icon"
@@ -20,7 +20,7 @@ class Navbar extends React.Component {
                     />
                     <NavLink to="/Wall">Profile</NavLink>
                 </div>
-                <div>
+                <div className='navbar__item'> 
                     <HandySvg
                         src={iconMessages}
                         className="icon"
@@ -29,32 +29,32 @@ class Navbar extends React.Component {
                     />
                     <NavLink to="/Dialogs">Dialogs</NavLink>
                 </div>
-                <div>
+                <div className='navbar__item'>
                     <HandySvg
                         src={iconHome}
                         className="icon"
                         width="25"
                         height="25"
                     />
-                    <a>Home</a>
+                    <NavLink to="/Home">Home</NavLink>
                 </div>
-                <div>
+                <div className='navbar__item'>
                     <HandySvg
                         src={iconPhotos}
                         className="icon"
                         width="25"
                         height="25"
                     />
-                    <a>Photos</a>
+                    <NavLink to="/Photos">Photos</NavLink>
                 </div>
-                <div>
+                <div className='navbar__item'>
                     <HandySvg
                         src={iconSettings}
                         className="icon"
                         width="25"
                         height="25"
                     />
-                    <a>Settings</a>
+                    <NavLink to="/Settings" >Settings</NavLink>
                 </div>
             </div>
         )

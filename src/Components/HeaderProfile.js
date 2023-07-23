@@ -17,8 +17,7 @@ class HeaderProfile extends React.Component
                             <a><span>Альберт Эйнштейн</span></a>
                         </div>
                         <div>
-                            <a>Moscow,
-                            40 years old</a>
+                            <a>Moscow,<br></br>40 years old</a>
                         </div>
                         <div>
                             <a>Online</a>
