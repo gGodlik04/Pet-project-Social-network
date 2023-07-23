@@ -1,10 +1,10 @@
 import React from 'react'
 import { HandySvg } from 'handy-svg';
-import iconProfile from './../icons-svg/profile.svg';
-import iconHome from './../icons-svg/home.svg'
-import iconMessages from './../icons-svg/messages.svg'
-import iconPhotos from './../icons-svg/photos.svg'
-import iconSettings from './../icons-svg/settings.svg'
+import iconProfile from './../../icons-svg/profile.svg';
+import iconHome from './../../icons-svg/home.svg'
+import iconMessages from './../../icons-svg/messages.svg'
+import iconPhotos from './../../icons-svg/photos.svg'
+import iconSettings from './../../icons-svg/settings.svg'
 import { NavLink } from 'react-router-dom';
 
 class Navbar extends React.Component {
