@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderProfile from './HeaderProfile';
 import Post from './Post';
 
-class Wall extends React.Component
+class Profile extends React.Component
 {
     render () {
         return (
@@ -17,4 +17,4 @@ class Wall extends React.Component
     }
 }
 
-export default Wall
+export default Profile

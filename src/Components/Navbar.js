@@ -5,6 +5,7 @@ import iconHome from './../icons-svg/home.svg'
 import iconMessages from './../icons-svg/messages.svg'
 import iconPhotos from './../icons-svg/photos.svg'
 import iconSettings from './../icons-svg/settings.svg'
+import { NavLink } from 'react-router-dom';
 
 class Navbar extends React.Component {
     render() {
@@ -17,7 +18,7 @@ class Navbar extends React.Component {
                         width="25"
                         height="25"
                     />
-                    <a>Profile</a>
+                    <NavLink to="/Wall">Profile</NavLink>
                 </div>
                 <div>
                     <HandySvg
@@ -26,7 +27,7 @@ class Navbar extends React.Component {
                         width="25"
                         height="25"
                     />
-                    <a>Messages</a>
+                    <NavLink to="/Dialogs">Dialogs</NavLink>
                 </div>
                 <div>
                     <HandySvg

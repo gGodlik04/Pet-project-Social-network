@@ -7,6 +7,11 @@
 body
     background-color: #EFF1FC
 
+    a
+        text-decoration: none
+    a:visited
+        color: #000
+
 .app-wrapper
     display: grid
     grid-template-rows: 42px auto
@@ -14,3 +19,7 @@ body
     grid-gap: 10px
     grid-template-areas: "header header" "navbar wall" 
     // overflow: hidden
+
+.app-wrapper-content
+    grid-area: wall
+    background-color: #EFF1FC

@@ -16,6 +16,12 @@
 body {
   background-color: #EFF1FC;
 }
+body a {
+  text-decoration: none;
+}
+body a:visited {
+  color: #000;
+}
 
 .app-wrapper {
   display: grid;
@@ -23,6 +29,11 @@ body {
   grid-template-columns: 466px auto;
   grid-gap: 10px;
   grid-template-areas: "header header" "navbar wall";
+}
+
+.app-wrapper-content {
+  grid-area: wall;
+  background-color: #EFF1FC;
 }
 
 .header {
