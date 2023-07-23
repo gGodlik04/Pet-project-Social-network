@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "InterRegular";
+  src: local("InterRegular"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("../fonts/Inter-SemiBold.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "InterRegular";
+}
+
+body {
+  background-color: #EFF1FC;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 42px auto;
+  grid-template-columns: 466px auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header" "navbar wall";
+}
+
+.header {
+  background-color: #6B5FDB;
+  grid-area: header;
+  display: flex;
+  font-size: 16px;
+  color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.header svg {
+  background-color: #6B5FDB;
+  margin-left: 42px;
+  margin-top: 9px;
+  height: 25px;
+  width: 25px;
+}
+.header p {
+  display: inline-block;
+  background-color: #6B5FDB;
+  margin-left: 12px;
+  margin-top: 9px;
+  font-family: "InterSemiBold";
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: white;
+  grid-area: navbar;
+  height: auto;
+  width: auto;
+  margin-left: 225px;
+  display: unset;
+  border-radius: 20px;
+  font-size: 16px;
+  padding-bottom: 25px;
+  font-family: "InterRegular";
+}
+.navbar div {
+  margin-top: 25px;
+}
+.navbar .icon {
+  position: relative;
+  top: 7px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.header-profile {
+  background-color: #fff;
+  width: 1217px;
+  margin-right: 237px;
+}
+.header-profile .bg-header-profile {
+  width: 1217px;
+  height: 194px;
+  margin-right: 237px;
+  background-image: url("./../img/bgheader.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.header-profile .header-profile__options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
+  margin-top: 150px;
+}
+.post img {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}/*# sourceMappingURL=style.css.map */

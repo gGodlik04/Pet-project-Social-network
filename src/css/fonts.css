@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "InterRegular";
+  src: local("InterRegular"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterSemiBold";
+  src: url("../fonts/Inter-SemiBold.ttf") format("truetype");
+}/*# sourceMappingURL=fonts.css.map */

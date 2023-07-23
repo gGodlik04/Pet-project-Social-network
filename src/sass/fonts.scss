@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'InterRegular';
+    src: local('InterRegular'), url('../fonts/Inter-Regular.ttf') format('truetype');
+    // font-weight: normal;
+    // font-style: normal;
+    }
+
+@font-face {
+    font-family: 'InterSemiBold';
+    src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+    // font-weight: normal;
+    // font-style: normal;
+    }
+
+@mixin semibold {
+    font-family: 'InterSemiBold';
+}
+
+@mixin regular {
+    font-family: 'InterRegular';
+}
