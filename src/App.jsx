@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <div className="app-wrapper-content">
           <Routes>
-            <Route path="/Wall" element={<Profile/>} />
+            <Route path="/Wall/*" element={<Profile/>} />
             <Route path="/Dialogs" element={<Dialogs/>} />
           </Routes>
         </div>

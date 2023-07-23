@@ -17,6 +17,7 @@ body {
   background-color: #EFF1FC;
 }
 body a {
+  color: #000;
   text-decoration: none;
 }
 body a:visited {
@@ -117,4 +118,27 @@ body a:visited {
   height: 50px;
   width: 50px;
   border-radius: 30px;
+}
+
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogs__dlg_items {
+  padding: 10px;
+}
+.dialogs__msg {
+  background-color: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.dialogs__msg_items {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #6B5FDB;
+  border-radius: 20px;
+  width: auto;
 }/*# sourceMappingURL=style.css.map */
